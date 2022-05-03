@@ -1,9 +1,6 @@
-let precioProducto = document.getElementById("precioProducto");
+let producto = document.getElementById("producto");
 let btnPrecio = document.getElementById("btnPrecio");
 
 btnPrecio.addEventListener("click", () => {
-  console.log(
-    "El precio final es ",
-    precioProducto.value - precioProducto.value * 0.1
-  );
+  console.log("El precio final es ", producto.value - producto.value * 0.1);
 });
